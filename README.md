@@ -8,9 +8,11 @@ As someone who does work on both the front and back end of these projects, I can
 
 ## Installation
 
-Deployed at http://Veis1337.github.io/ReactPortfolio
+Deployed at https://bookgraphql.herokuapp.com/
 
 ## Usage
+
+User may login or create a new profile and search for any book in the google books API.  User may then add those books to their book list and access them from the navbar link.
 
 ![](./media/Screenshot%202023-04-26%20140925.png)
 
