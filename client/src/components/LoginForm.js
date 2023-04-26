@@ -19,6 +19,7 @@ const LoginForm = () => {
   };
 
   const handleFormSubmit = async (event) => {
+    console.log("HANDLING FORM SUBMIT")
     event.preventDefault();
 
     // check if form has everything (as per react-bootstrap docs)
@@ -29,6 +30,7 @@ const LoginForm = () => {
     }
 
     try {
+      console.log("Hitting try loginUser loginform route")
       const { data } = await loginUser({
         variables: { ...userFormData },
       });
